@@ -1,14 +1,19 @@
 <!DOCTYPE html><html lang="en">
-<head><img src="logo.png" alt="AL-Razaq Charity Organization Logo" style="width: 150px; height: auto; display: block; margin: 20px auto;">
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AL-RAZAQ Charity Organization</title>
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
-      color: #1f2d3d;
+      body {
+    /* ... existing styles ... */
+    background-image: url('logo.png'); /* *CHANGE THIS IF LOGO NAME IS DIFFERENT* */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 80%; /* Adjust size (e.g., 60% or 90%) as needed */
+    opacity: 0.9; /* Keeps the text readable over the image */
+}
     }header {
   background: #0b355d;
   color: white;
